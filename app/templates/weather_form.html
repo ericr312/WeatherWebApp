@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter City Name</title>
+</head>
+<body>
+    <h1>Enter a city name:</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="city" required>
+        <button type="submit">Get Weather</button>
+    </form>
+</body>
+</html>

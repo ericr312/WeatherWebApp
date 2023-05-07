@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Weather for {{ city }}</h1>
+<p>Temperature: {{ temperature }}°C</p>
+<p>Description: {{ description }}</p>
+<p>Wind Speed: {{ wind_speed }} m/s</p>
+<p>Wind Direction: {{ wind_direction }}</p>
+{% endblock %}
+
