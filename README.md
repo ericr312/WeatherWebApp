@@ -12,6 +12,10 @@
 7. Ensure APIkey.txt is located inside of your app directory (i.e., WeatherWebApp/app/APIkey.txt)
 
 
+-- Install Python requests package --
+    >> pip install requests
+
+
 -- Setting up the WeatherApp --
 1. Ensure your interpreter has Django installed.
 2. Recommended to store your Django secret in a seperate .txt file (e.g. "DjangoSecret") prior to publishing code.
